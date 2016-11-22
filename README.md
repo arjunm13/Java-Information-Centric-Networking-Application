@@ -1,13 +1,4 @@
 # Java-Information-Centric-Networking-Application
 Designed and developed router discovery and packet forwarding protocols using Java Socket programming API, Used UDP sockets for Neighbor discovery and information queries Multiple computers were able to connect/disconnect and whilst maintaining a fully connected network
 
-The virtual election booth application being discussed in this report was implemented using
-Java and makes use of Java cryptographic class library’s RSA and DES algorithm classes. RSA
-and DES are cryptographic systems used for encrypting and decrypting. RSA generates
-asymmetric public-private keys that consist of large integers. A block of data can be encrypted by
-using either the RSA public or private key and decrypted using the correlated key, if the public
-key is used to encrypt the data, the private key will be used to decrypt the data and vice-versa. The
-generated public and private keys need to be distrusted to the senders and receivers of the data.
-Generally, systems that require users to verify that the data being sent is authentic keeps the the
-private key to itself and distributed the public key to users. This is to ensure the data they are
-receiving is indeed from the server
+An IP address based network is made between multiple routers that is connected together in a particular topology. The network will contain an information transport service in which a router can request a specific file from another router. This will then trigger a query flood from the sender of the request to all routers present in the network. The router which contains the desired file will then respond to the request and the network will then create a flow control scheme in which will make a path for the information to go from the sender to the receiver of the file. This design will demonstrate a simple flow control scheme to send information from one router to another.
